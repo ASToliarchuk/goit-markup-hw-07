@@ -2,16 +2,16 @@
     display: flex;
 }
 
-.features-list li {
+.feature-list li {
     margin-right: 30px;
     width: 270px;
 }
 
-.features-list li:last-child {
+.feature-list li:last-child {
     margin-right: 0%;
 }
 
-.features-list .title {
+.feature-list .title {
     color: var(--secondary-text-color);
     font-family: "Roboto";
     font-weight: 700;
@@ -21,7 +21,7 @@
     text-transform: uppercase;
 }
 
-.features-list .text {
+.feature-list .text {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -31,13 +31,13 @@
     margin-bottom: 10px;
 }
 
-.icon-features {
+.icon-feature {
     text-align: center;
     width: 70px;
     height: 70px;
 }
 
-.features-box {
+.feature-box {
     display: flex;
     align-items: center;
     justify-content: center;
