@@ -2,67 +2,20 @@
 @import "./utils/base.scss";
 @import "./utils/hidden.scss";
 
+@import "./_layouts.scss/container.scss";
 
 @import "./components/buttons";
 @import "./components/header";
-@import "./components/container";
 @import "./components/navigation";
 @import "./components/hero";
 @import "./components/section";
+@import "./components/features";
 
-/* Наши особенности */
 
 
-.feature-list {
-    display: flex;
-}
 
-.feature-list li {
-    margin-right: 30px;
-    width: 270px;
-}
 
-.feature-list li:last-child {
-    margin-right: 0%;
-}
 
-.feature-list .title {
-    color: var(--secondary-text-color);
-    font-family: "Roboto";
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-}
-
-.feature-list .text {
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-}
-
-.title {
-    margin-bottom: 10px;
-}
-
-.icon-feature {
-    text-align: center;
-    width: 70px;
-    height: 70px;
-}
-
-.feature-box {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: rgb(245, 244, 250);
-    border-radius: 4px;
-    margin-bottom: 30px;
-    width: 270px;
-    height: 120px;
-    text-align: center;
-}
 
 /* Чем мы занимаемся */
 .section-work {
