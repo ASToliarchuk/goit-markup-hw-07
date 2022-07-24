@@ -104,9 +104,8 @@ footer {
 }
 
 .link-social {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+@extend %flex-centered;
+
     width: 44px;
     height: 44px;
     border-radius: 50%;

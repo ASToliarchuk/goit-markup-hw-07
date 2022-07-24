@@ -1,23 +1,30 @@
 @import "./utils/variables.scss";
 @import "./utils/base.scss";
 @import "./utils/hidden.scss";
+@import "./utils/placeholders";
 
-@import "./_layouts.scss/container.scss";
+@import "./layouts.scss/container.scss";
 
 @import "./components/buttons";
-@import "./components/header";
-@import "./components/navigation";
-@import "./components/hero";
-@import "./components/section";
-@import "./components/feature";
-@import "./components/section-work";
-@import "./components/team-section";
-@import "./components/section-client";
-@import "./components/filter-portfolio";
-@import "./components/list-portfolio";
 @import "./components/backdrop";
-@import "./components/modal";
+@import "./components/filter-portfolio";
+@import "./components/feature";
 @import "./components/form";
 @import "./components/footer";
 @import "./components/footer-right-block";
+@import "./components/header";
+@import "./components/hero";
+@import "./components/list-portfolio";
+@import "./components/modal";
+@import "./components/navigation";
+@import "./components/section";
+@import "./components/section-work";
+@import "./components/section-client";
+@import "./components/team-section";
+
+
+
+
+
+
 

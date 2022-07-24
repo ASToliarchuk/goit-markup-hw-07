@@ -5,9 +5,7 @@
 }
 
 .company {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @extend %flex-centered;
 }
 
 .card {
@@ -21,9 +19,8 @@
 }
 
 .client-icons {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @extend %flex-centered;
+    
     border: 1px solid #afb1b8;
     border-radius: 4px;
     width: 170px;

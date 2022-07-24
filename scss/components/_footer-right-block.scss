@@ -10,8 +10,7 @@
 }
 
 .subscription {
-    display: flex;
-    align-items: center;
+@extend %flex-centered;
 }
 
 .subscription-input {
